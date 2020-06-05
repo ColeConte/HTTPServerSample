@@ -2,7 +2,8 @@
 Maria Cioffi, Cole Conte, Andrew Kirna
 httpserver.py
 Last Edited: Mon Nov 30 2015
-Drew inspiration from the following code segments:
+Revised from a sample Python Server from Xiannong Meng,
+which was in turn revised from the code segments:
 http://stackoverflow.com/questions/23264569/python-3-x-basehttpserver-or-http-server
 and
 https://wiki.python.org/moin/BaseHttpServer#Official_Documentation
@@ -15,7 +16,6 @@ import time
 import os
 from os.path import isfile, join
 import operator
-
 
 HOST_NAME = "brki164-lnx-10"  # any real host name where the server is running
 HOST_PORT = 9000
